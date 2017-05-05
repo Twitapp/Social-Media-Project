@@ -9,11 +9,11 @@
 
         nav {
           background-color:#ff0000;
-          height:115px;
+          height:80px;
           position:fixed;
           margin-bottom:5px;
           z-index:100;
-        }
+        }s
 
         #logo {
           width:80px;
@@ -23,105 +23,75 @@
         }
 
         .body {
-          float:right;
-          width:65%;
-        }
-
-        #welcome {
-          margin-top:100px;
-          margin-right:25px;
-        }
-
-        .combined-row {
-          width:30%;
-          position:absolute;
-          margin-top:-5px;
-          float:left;
-          margin-left:25px;
+          margin:auto;
+          width:70%;
         }
 
         #about {
-          margin-top:50px;
-        position: absolute;
-    height: 200px;
-    width: 400px;
-    margin: -100px 0 0 -200px;
-    top: 30%;
-    left: 50%;
-
-        }
-
-        #make-tweet {
-          margin-top:310px;
-        }
-
-        #post-tweet {
-          border-radius:10px;
-          border-color: #b2b2b2;
-          width:330px;
-          height:104px;
-          padding:7px;
-        }
-
-        #latest-tweets {
-          padding-top:-20px;
-          position:relative;
-          margin-top:-10px;
-          margin-right:25px;
-          clear:both;
-        }
-
-        .page-footer {
-          background-color:#ff0000;
-          clear:both;
+          margin-top:75px;
         }
 
     </style>
 	</head>
 	<body style="background-color:#fcfcfc">
 
-    <div>
-
         <nav>
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo center" style="margin-top:-15px"><h1><strong>Twitter</strong></h1></a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="edit.php">Home</a></li>
-                <li><a href="logout.php">Logout</a></li>
-                <li><a href="register.php">Register</a></li>
-                <li><a href="help.php">Help</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
+            <a href="edit.php" class="brand-logo center" style="margin-top:-6px"><h3>Twitter</h3></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><img id="logo" src="twitter-logo-orange.png" /></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="help.php">Help</a></li>
+            </ul>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="edit.php">My Account</a></li>
+                <li><a href="logout.php">Logout</a></li>
             </ul>
           </div>
         </nav>
     	
     <br>
-    </div>
-    </body>
-     <div id="about" class="combined-row" class="row">
+
+     <div id="about" class="body" class="row">
       <div class="col s12 m6">
           <div class="card white">
-              <div class="card-content black-text">
-              <span class="card-title">About</span>
-              On this website, you are able to post tweets with hashtags, see other people's tweets, and search for hashtags, tweets, and users through the search bar
-                  <br>
-                  <br>
-              <span class="card-title">Our Goal</span>
-              We want to make an easy to use, effective, and enjoyable social media webpage that allows our users to communication and express their ideas.
-              	<br>
-              	<br>
-              <span class="card-title">Our Contact</span>
-              <ul>
-                  <li><a class="black-text"target="_blank">justin.gilbert@ucc.on.ca</a></li>
-                  <li><a class="black-text" target="_blank">neel.ismail@ucc.on.ca</a></li>
-                </ul>
-                <br>
-              </div>
-              </div>
+            <div class="card-content black-text">
+              <span class="card-title"><strong>About:</strong></span>
+              <p>This website allows you to post your thoughts, use hastags, and search for posts through username, key words, or hashtags.</p>
+            </div>
           </div>
+        </div>
       </div>
-    </div>
-   </html>
+
+    <div class="body" class="row">
+      <div class="col s12 m6">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title"><strong>Our Goal:</strong></span>
+              <p>We want to make an easy to use, effective, and enjoyable social media webpage that allows our users to communication and express their ideas. Quality, and appearance are the most important to us, so pleace leave feedback via our contact information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body" class="row">
+      <div class="col s12 m6">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title"><strong>The Team:</strong></span>
+              <br>
+              <h6>Justin Gilbert</h6>
+              <br>
+              <p>PUT IMAGE</p>
+              <p>Contact: <a mailto="justin.gilbert@ucc.on.ca">Justin Gilbert</a></p>
+              <br>
+              <h6>Neel Ismail</h6>
+              <br>
+              <p>PUT IMAGE</p>
+              <p>Contact: <a mailto="neel.ismail@ucc.on.ca">Neel Ismail</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
