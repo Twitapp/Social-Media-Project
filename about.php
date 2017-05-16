@@ -6,7 +6,6 @@
     <title>About</title>
 
     <style>
-
         nav {
           background-color:#015a8e;
           height:80px;
@@ -14,54 +13,44 @@
           margin-bottom:5px;
           z-index:100;
         }
-
         .body {
           margin:auto;
           width:70%;
         }
-
         #about {
           margin-top:75px;
           font-size: 18px;
         }
-
         .contact {
           width:34%;
         }
-
         #justin {
           position:relative;
           margin-left:15%;
         }
-
         #justin img {
           margin-top:-23px;
           margin-left:-23.5px;
-          height:270px;
-          width:421px;
+          height:300px;
+          width:110.5%;
         }
-
         #neel {
           position:relative;
           margin-left:51%;
-          margin-top:-475px;
+          margin-top:-507px;
         }
-
         #neel img {
           margin-top:-23px;
           margin-left:-23.5px;
-          height:270px;
-          width:421px;
+          height: 300px;
+          width:110.5%;
         }
-
         #justin h5 {
           margin-left:28%;
         }
-
         #neel h5 {
           margin-left:31%;
         }
-
     </style>
   </head>
   <body style="background-color:#f4f4f4">
@@ -112,7 +101,7 @@
         <div class="col s12 m6">
           <div class="card white" style='border:1px solid #b2b2b2'>
             <div class="card-content black-text">
-              <span class="card-title">The Team</span>
+              <span style="margin-left: 44%" class="card-title">The Team</span>
             </div>
           </div>
         </div>
