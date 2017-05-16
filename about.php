@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <title>About</title>
 
     <style>
@@ -25,9 +25,46 @@
           font-size: 18px;
         }
 
+        .contact {
+          width:34%;
+        }
+
+        #justin {
+          position:relative;
+          margin-left:15%;
+        }
+
+        #justin img {
+          margin-top:-23px;
+          margin-left:-23.5px;
+          height:270px;
+          width:421px;
+        }
+
+        #neel {
+          position:relative;
+          margin-left:51%;
+          margin-top:-475px;
+        }
+
+        #neel img {
+          margin-top:-23px;
+          margin-left:-23.5px;
+          height:270px;
+          width:421px;
+        }
+
+        #justin h5 {
+          margin-left:28%;
+        }
+
+        #neel h5 {
+          margin-left:31%;
+        }
+
     </style>
-	</head>
-	<body style="background-color:#f4f4f4">
+  </head>
+  <body style="background-color:#f4f4f4">
 
         <nav>
           <div class="nav-wrapper">
@@ -42,20 +79,29 @@
             </ul>
           </div>
         </nav>
-    	
+      
     <br>
 
-     <div id="about" class="body" class="row">
-      <div class="col s12 m6">
+      <div id="about" class="body" class="row">
+        <div class="col s12 m6">
           <div class="card white" style='border:1px solid #b2b2b2'>
             <div class="card-content black-text">
-              <span class="card-title"><strong>Functionality:</strong></span>
+              <span class="card-title">What can you do on YourSpace?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="body" class="row">
+        <div class="col s12 m6">
+          <div class="card white" style='border:1px solid #b2b2b2'>
+            <div class="card-content black-text">
               <ol>
-              <li>Post your thoughts</li>
-              <li>Use hashtags to group your posts</li>
-              <li>Upload images</li>
-              <li>See other people's posts and images</li>
-              <li>Search for posts by using specific keywords, hashtags, or usernames</li>
+                <li>Post your thoughts</li>
+                <li>Use hashtags to group your posts</li>
+                <li>Upload images</li>
+                <li>See other people's posts and images</li>
+                <li>Search for posts by using specific keywords, hashtags, or usernames</li>
               </ol>
             </div>
           </div>
@@ -63,21 +109,42 @@
       </div>
 
       <div class="body" class="row">
-      <div class="col s12 m6">
+        <div class="col s12 m6">
           <div class="card white" style='border:1px solid #b2b2b2'>
             <div class="card-content black-text">
-              <span class="card-title"><strong>The Team:</strong></span>
+              <span class="card-title">The Team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="justin" class="row">
+        <div class="col s12 m6">
+          <div class="card white" style='border:1px solid #b2b2b2'>
+            <div class="card-content black-text">
+              <img src=https://s16.postimg.org/m1jul984l/image.jpg>
+              <br><br>
+              <h5>Justin Gilbert</h5>
               <br>
-              <h6>Justin Gilbert</h6>
+              <p style="margin-left:25%">Co-founder of YourSpace</p>
+              <p style="margin-left:22%">Upper Canada College Student</p>
+              <p style="margin-left:26%">Contact: <a href="mailto:justin.gilbert@ucc.on.ca">Justin Gilbert</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="neel" class="row">
+        <div class="col s12 m6">
+          <div class="card white" style='border:1px solid #b2b2b2'>
+            <div class="card-content black-text">
+              <img src=https://s2.postimg.org/7rk12cbrd/neel.jpg>
+              <br><br>
+              <h5>Neel Ismail</h5>
               <br>
-             
-              <img style="border-radius: 180px" src=https://s16.postimg.org/m1jul984l/image.jpg width="350" height="250">
-              <p>Contact: <a href="mailto:justin.gilbert@ucc.on.ca">Justin Gilbert</a></p>
-              <br>
-              <h6>Neel Ismail</h6>
-              <br>
-              <img style="border-radius: 180px" src=https://s2.postimg.org/7rk12cbrd/neel.jpg width="350" height="300">
-              <p>Contact: <a href="mailto:neel.ismail@ucc.on.ca">Neel Ismail</a></p>
+              <p style="margin-left:25%">Co-founder of YourSpace</p>
+              <p style="margin-left:22%">Upper Canada College Student</p>
+              <p style="margin-left:26%">Contact: <a href="mailto:neel.ismail@ucc.on.ca">Neel Ismail</a></p>
             </div>
           </div>
         </div>
