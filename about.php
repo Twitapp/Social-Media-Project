@@ -22,16 +22,12 @@
 
         #about {
           margin-top:75px;
-        }
-        #team {
-          display: block;
-          margin:auto;
-          width: 89%;
+          font-size: 18px;
         }
 
     </style>
 	</head>
-	<body style="background-color:#fcfcfc">
+	<body style="background-color:#f4f4f4">
 
         <nav>
           <div class="nav-wrapper">
@@ -41,7 +37,8 @@
                 <li><a href="help.php">Help</a></li>
             </ul>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="edit.php">My Account</a></li>
+                <li><a href="edit.php">Return to Profile</a></li>
+                <li><a href="register.php">Register</a></li>
             </ul>
           </div>
         </nav>
@@ -50,52 +47,41 @@
 
      <div id="about" class="body" class="row">
       <div class="col s12 m6">
-          <div class="card white">
+          <div class="card white" style='border:1px solid #b2b2b2'>
             <div class="card-content black-text">
-              <span class="card-title"><strong>About:</strong></span>
-              <p>On this website, you are able to post tweets with hashtags, see other people's tweets, and search for hashtags, tweets, and users through the search bar</p>
+              <span class="card-title"><strong>Functionality:</strong></span>
+              <ol>
+              <li>Post your thoughts</li>
+              <li>Use hashtags to group your posts</li>
+              <li>Upload images</li>
+              <li>See other people's posts and images</li>
+              <li>Search for posts by using specific keywords, hashtags, or usernames</li>
+              </ol>
             </div>
           </div>
         </div>
       </div>
 
-    <div class="body" class="row">
-      <div class="col s12 m6">
-          <div class="card white">
-            <div class="card-content black-text">
-              <span class="card-title"><strong>Our Goal:</strong></span>
-              <p>We want to make an easy to use, effective, and enjoyable social media webpage that allows our users to communicate and express their ideas.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    
       <div class="body" class="row">
       <div class="col s12 m6">
-          <div class="card white">
+          <div class="card white" style='border:1px solid #b2b2b2'>
             <div class="card-content black-text">
               <span class="card-title"><strong>The Team:</strong></span>
               <br>
-              <table id="team" style="border-width:2px solid black">
-              <tr>
-                <td><h6>Justin Gilbert</h6></td>
-                <td><h6>Neel Ismail</h6></td>
-              </tr>
-              <tr>
-              <td><img id="justin" src='https://s2.postimg.org/8k7afvmyx/Photo_on_2017-05-08_at_2.14_PM.jpg' width='400' height='300'></td>
-              <td><img id="justin" src='https://s2.postimg.org/8k7afvmyx/Photo_on_2017-05-08_at_2.14_PM.jpg' width='400' height='300'></td>
-              </tr>
-              <tr>
-                <td><p>Contact: <a href="mailto:justin.gilbert@ucc.on.ca">Justin Gilbert</a></p></td>
-                <td><p>Contact: <a href="mailto:neel.ismail@ucc.on.ca">Neel Ismail</a></p></td>
-              </tr>
-              </table>
+              <h6>Justin Gilbert</h6>
+              <br>
+             
+              <img style="border-radius: 180px" src=https://s16.postimg.org/m1jul984l/image.jpg width="350" height="250">
+              <p>Contact: <a href="mailto:justin.gilbert@ucc.on.ca">Justin Gilbert</a></p>
+              <br>
+              <h6>Neel Ismail</h6>
+              <br>
+              <img style="border-radius: 180px" src=https://s2.postimg.org/7rk12cbrd/neel.jpg width="350" height="300">
+              <p>Contact: <a href="mailto:neel.ismail@ucc.on.ca">Neel Ismail</a></p>
             </div>
           </div>
         </div>
       </div>
-   
 
 </body>
 </html>
